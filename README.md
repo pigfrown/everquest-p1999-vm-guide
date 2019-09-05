@@ -118,6 +118,8 @@ Use the "Everquest (p99) - bypass EQemu" desktop shortcut created by DUXA instal
 
 ## Notes/Issues
 
+If you are a linux user with an AMD graphics card and you get black instead of textures on some models, plus other graphical problems in game, you may need to use the amdgpu-pro driver. This fixed the problem for me.
+
 Fullscreen mode will crash if the VirtualBox has a non-standard resolution, e.g. because the window has been resized by the host. To work around this manually set the resolution in Windows XP (and don't resize the VirtualBox?).
 
 Everytime you use DUXA to change resolutions you need to disable Shaders in your eqclient.ini (see above).
